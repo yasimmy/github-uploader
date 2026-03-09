@@ -10,7 +10,6 @@
 
 [Скачать](#установка) • [Возможности](#возможности) • [Использование](#использование) • [Разработка](#разработка)
 
-![App Screenshot](https://via.placeholder.com/800x500/1a1a2e/58a6ff?text=GitHub+Uploader)
 
 </div>
 
@@ -52,7 +51,7 @@
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/yourusername/github-uploader.git
+git clone https://github.com/yasimmy/github-uploader.git
 
 # Перейти в директорию
 cd github-uploader
