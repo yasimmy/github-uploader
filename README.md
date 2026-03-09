@@ -94,8 +94,6 @@ npm run build:linux
 
 ### 1️⃣ Первый запуск
 
-<img src="https://via.placeholder.com/600x400/1a1a2e/58a6ff?text=Upload+Screen" width="600">
-
 1. Вставьте ваш **GitHub Token**
 2. Нажмите **"Обзор"** и выберите папку проекта
 3. Введите **название репозитория**
@@ -106,7 +104,6 @@ npm run build:linux
 
 ### 2️⃣ Настройки
 
-<img src="https://via.placeholder.com/600x400/1a1a2e/58a6ff?text=Settings+Screen" width="600">
 
 - **GitHub Token** - сохраняется для будущих загрузок
 - **Сообщение коммита по умолчанию** - используется автоматически
@@ -115,7 +112,6 @@ npm run build:linux
 
 ### 3️⃣ История загрузок
 
-<img src="https://via.placeholder.com/600x400/1a1a2e/58a6ff?text=History+Screen" width="600">
 
 - Просмотр всех загруженных проектов
 - Дата и время загрузки
@@ -157,26 +153,6 @@ github-uploader/
 │   └── notification.mp3
 └── README.md            # Документация
 ```
-
----
-
-## 🎨 Скриншоты
-
-<div align="center">
-
-### Главный экран
-<img src="https://via.placeholder.com/800x500/1a1a2e/58a6ff?text=Main+Screen" width="800">
-
-### Настройки
-<img src="https://via.placeholder.com/800x500/1a1a2e/58a6ff?text=Settings" width="800">
-
-### История
-<img src="https://via.placeholder.com/800x500/1a1a2e/58a6ff?text=History" width="800">
-
-### Модальное окно
-<img src="https://via.placeholder.com/800x500/1a1a2e/58a6ff?text=Modal" width="800">
-
-</div>
 
 ---
 
