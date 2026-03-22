@@ -10,7 +10,6 @@
 
 [Скачать](#установка) • [Возможности](#возможности) • [Использование](#использование) • [Разработка](#разработка)
 
-
 </div>
 
 ---
@@ -102,8 +101,8 @@ npm run build:linux
 6. Выберите **приватность** репозитория
 7. Нажмите **"Загрузить на GitHub"** 🚀
 
-### 2️⃣ Настройки
 
+### 2️⃣ Настройки
 
 - **GitHub Token** - сохраняется для будущих загрузок
 - **Сообщение коммита по умолчанию** - используется автоматически
@@ -111,7 +110,6 @@ npm run build:linux
 - **Звуковые эффекты** - включить/выключить звуки
 
 ### 3️⃣ История загрузок
-
 
 - Просмотр всех загруженных проектов
 - Дата и время загрузки
@@ -163,6 +161,7 @@ github-uploader/
 ```bash
 npm start
 ```
+
 
 ### Структура кода
 
@@ -228,12 +227,13 @@ npm start
 
 ---
 
+
 ## 👨‍💻 Автор
 
 **GitHub Uploader Team**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@yasimmy](https://github.com/yasimmy)
+- Project: [github-uploader](https://github.com/yasimmy/github-uploader)
 
 ---
 
@@ -246,21 +246,9 @@ npm start
 
 ---
 
-## 📊 Статистика
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/github-uploader?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/github-uploader?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/github-uploader)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/github-uploader)
-
----
-
 <div align="center">
 
-**Сделано с ❤️ для разработчиков**
 
 [⬆ Наверх](#-github-uploader)
 
 </div>
-#   g i t h u b - u p l o a d e r  
- 
