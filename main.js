@@ -52,6 +52,12 @@ ipcMain.handle('upload-project', async (event, data) => {
       return { success: false, error: 'Папка не найдена' };
     }
 
+    // Check if it's a valid directory
+    const stats = fs.statSync(folderPath);
+    if (!stats.isDirectory()) {
+      return { success: false, error: 'Выбранный путь не является папкой' };
+    }
+
     const octokit = new Octokit({ auth: token });
     const git = simpleGit(folderPath);
 
@@ -85,6 +91,45 @@ ipcMain.handle('upload-project', async (event, data) => {
       await git.branch(['-M', 'main']);
     }
     
+    // Create .gitignore to exclude common unwanted files
+    const gitignorePath = path.join(folderPath, '.gitignore');
+    const gitignoreContent = `# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build files
+dist/
+build/
+*.exe
+*.app
+*.dmg
+
+# Logs
+*.log
+logs/
+`;
+    
+    // Only create .gitignore if it doesn't exist
+    if (!fs.existsSync(gitignorePath)) {
+      fs.writeFileSync(gitignorePath, gitignoreContent, 'utf8');
+    }
+    
+    // Add all files from the selected folder
+    // Using '.' adds everything in the current directory (which is folderPath)
     await git.add('.');
     
     try {
